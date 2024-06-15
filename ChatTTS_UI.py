@@ -23,7 +23,7 @@ def hy(iuput):
     inputs_cn = iuput.replace('\n', '')
 
     params_refine_text = {
-        'prompt': '[uv_break][laugh_0][break_4]'
+        'prompt': '[oral_2][laugh_0][break_4]'
     }
     audio_array_cn = chat.infer(inputs_cn, params_refine_text=params_refine_text)
     # audio_array_en = chat.infer(inputs_en, params_refine_text=params_refine_text)
